@@ -1,0 +1,19 @@
+# Ignore all files in node_modules folder
+node_modules/
+
+# Ignore all files in the .next folder
+.next
+
+# Ignore all files in the dist folder
+dist/*
+
+# Ignore files with .log extension
+*.log
+
+# Ignore all files in the tests folder
+tests/*
+
+# Ignore files with extensions .jpg, .png, .gif
+*.jpg
+*.png
+*.gif

@@ -23,6 +23,8 @@ export const Banner = () => {
         src="/images/typography/banner-illustration.jpg"
         alt="Рука, утопленная в желтом фоне"
         className={Styles.banner__image}
+        width={100}
+        height={100}
       />
     </section>
   );

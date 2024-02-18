@@ -5,7 +5,13 @@ export const Header = () => {
   return (
     <header className={Styles["header"]}>
       <a href="/" className={Styles["logo"]}>
-        <Image src="/images/logo.svg" alt="Логотип Pindie" className={Styles["logo__image"]} />
+        <Image
+          src="/images/logo.svg"
+          alt="Логотип Pindie"
+          className={Styles["logo__image"]}
+          width={100}
+          height={100}
+        />
       </a>
       <nav className={Styles["menu"]}>
         <ul className={Styles["menu__list"]}>
