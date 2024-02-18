@@ -13,6 +13,7 @@
   padding: 20px 0;
   width: 100%;
   align-self: center;
+  user-select: none;
 }
 
 .footer__logo-name {
@@ -40,11 +41,21 @@
   height: 100%;
   border-top: 0;
   border-bottom: 0;
+  cursor: pointer;
 }
 
-.footer .social-list__link:hover {
-  background-color: #ffff00;
-  color: black;
+@media (pointer: fine) {
+  .footer .social-list__link:hover {
+    background-color: #ffff00;
+    color: black;
+  }
+}
+
+@media (pointer: coarse) {
+  .footer .social-list__link:active {
+    background-color: #ffff00;
+    color: black;
+  }
 }
 
 @media (width <= 1440px) {

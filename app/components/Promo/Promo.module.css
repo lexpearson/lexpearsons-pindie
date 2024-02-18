@@ -38,20 +38,35 @@
   color: white;
   border-color: white;
   margin-left: 108px;
-}
-
-.promo__button:hover {
-  background-color: white;
-  color: #2400ff;
+  cursor: pointer;
 }
 
 .promo-code {
   color: yellow;
 }
 
-.promo__button:has(.promo-code):hover {
-  background-color: transparent;
-  cursor: default;
+@media (pointer: fine) {
+  .promo__button:hover {
+    background-color: white;
+    color: #2400ff;
+  }
+
+  .promo__button:has(.promo-code):hover {
+    background-color: transparent;
+    cursor: default;
+  }
+}
+
+@media (pointer: coarse) {
+  .promo__button:active {
+    background-color: white;
+    color: #2400ff;
+  }
+
+  .promo__button:has(.promo-code):active {
+    background-color: transparent;
+    cursor: default;
+  }
 }
 
 @media (width <= 1440px) {

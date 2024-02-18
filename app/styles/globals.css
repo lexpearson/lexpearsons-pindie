@@ -72,6 +72,7 @@ button {
 }
 
 .button {
+  user-select: none;
   font-family: "Rubic One", sans-serif;
   display: block;
   padding: 18px 35px;
@@ -85,9 +86,18 @@ button {
   white-space: nowrap;
 }
 
-.button:hover {
-  background-color: black;
-  color: #ffff00;
+@media (pointer: fine) {
+  .button:hover {
+    background-color: black;
+    color: #ffff00;
+  }
+}
+
+@media (pointer: coarse) {
+  .button:active {
+    background-color: black;
+    color: #ffff00;
+  }
 }
 
 .main {
@@ -108,4 +118,15 @@ button {
   .button {
     font-size: 20px;
   }
+}
+
+::-moz-selection {
+  color: #ff0;
+  background-color: black;
+}
+
+::selection {
+  color: #ff0;
+  -webkit-text-fill-color: #ff0;
+  background-color: black;
 }

@@ -14,6 +14,7 @@
   width: 148px;
   min-width: 148px;
   align-self: center;
+  user-select: none;
 }
 
 .logo__image {
@@ -51,10 +52,7 @@
   transition: background-color 0.3s ease-in-out;
   width: 100%;
   box-shadow: 4px 4px 0 black, -4px -4px 0 black, -4px 4px 0 black, 4px -4px 0 black;
-}
-
-.menu__link:hover {
-  background-color: #ffff00;
+  cursor: pointer;
 }
 
 .auth {
@@ -74,8 +72,24 @@
   transition: color 0.3s ease-in-out;
 }
 
-.auth__button:hover {
-  color: #ffff00;
+@media (pointer: fine) {
+  .menu__link:hover {
+    background-color: #ffff00;
+  }
+
+  .auth__button:hover {
+    color: #ffff00;
+  }
+}
+
+@media (pointer: coarse) {
+  .menu__link:active {
+    background-color: #ffff00;
+  }
+
+  .auth__button:active {
+    color: #ffff00;
+  }
 }
 
 @media (width <=1440px) {
