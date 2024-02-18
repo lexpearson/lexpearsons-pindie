@@ -44,7 +44,10 @@ export default function RootLayout({ children }) {
 
         {/* BASIC */}
         <meta name='description' content='Портал инди-игр от студентов Яндекс Практикума' />
-        <meta name='keywords' content='Pindie, games, indie-games, game studio Practicum' />
+        <meta
+          name='keywords'
+          content='Pindie, games, indie-games, game studio, yandex, practicum, yandex practicum'
+        />
         <meta name='copyright' content='GITHUB.COM/LEXPEARSON' />
         <meta name='robots' content='index, follow' />
       </head>

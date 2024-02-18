@@ -1,0 +1,17 @@
+# Ignore all files in the node_modules folder
+node_modules
+
+# Ignore all files in the .next folder
+.next
+
+# Ignore all files with the .log extension
+*.log
+
+# Ignore files in the dist folder
+dist/*
+
+# Ignore files starting with the temp_ prefix
+temp_*
+
+# Ignore files in the project root with the .md extension
+/*.md
