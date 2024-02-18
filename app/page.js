@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      <CardsList data={popularGames} id="popular" title="Популярные" />
-      <CardsList data={newGames} id="new" title="Новинки" />
+      <CardsList data={popularGames} id='popular' title='Популярные' />
+      <CardsList data={newGames} id='new' title='Новинки' />
       <Promo />
     </main>
   );
