@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  images: {
+    domains: ['code.s3.yandex.net'],
+  },
   experimental: {
     esmExternals: true,
     forceSwcTransforms: true

@@ -5,6 +5,7 @@
   flex-direction: column;
   background-color: white;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .card:hover {
@@ -14,6 +15,7 @@
 
 .card__image {
   width: 100%;
+  height: auto;
   aspect-ratio: 375 / 250;
   object-fit: cover;
   object-position: center;

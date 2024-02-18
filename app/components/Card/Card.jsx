@@ -4,7 +4,13 @@ import Styles from "./Card.module.css";
 export const Card = ({ gameData }) => {
   return (
     <article className={Styles.card}>
-      <Image src={gameData.image} alt="" className={Styles.card__image} />
+      <Image
+        src={gameData.image}
+        alt={`Скриншот из игры "${gameData.title}"`}
+        className={Styles.card__image}
+        width={100}
+        height={100}
+      />
       <div className={Styles["card__content-block"]}>
         <h3 className={Styles.card__title}>{gameData.title}</h3>
         <p className={Styles.card__description}>{gameData.description}</p>
