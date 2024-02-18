@@ -15,6 +15,8 @@ export const Promo = () => {
         src="/images/typography/promo-illustration.svg"
         alt="Собака"
         className={Styles.promo__image}
+        width={100}
+        height={100}
       />
     </section>
   );

@@ -28,6 +28,8 @@
 }
 
 .promo__image {
+  width: 100%;
+  height: auto;
   align-self: end;
   justify-self: end;
 }
