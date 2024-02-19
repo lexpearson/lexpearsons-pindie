@@ -37,12 +37,12 @@ export default function RootLayout({ children }) {
         <meta property='og:title' content='Pindie' />
         <meta property='og:description' content='Портал инди-игр от студентов Яндекс Практикума' />
 
-        {/* TWITTER */}
+        {/* SEO [TWITTER] */}
         <meta name='twitter:title' content='Pindie' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:description' content='Портал инди-игр от студентов Яндекс Практикума' />
 
-        {/* BASIC */}
+        {/* SEO [BASIC] */}
         <meta name='description' content='Портал инди-игр от студентов Яндекс Практикума' />
         <meta
           name='keywords'
